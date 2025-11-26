@@ -47,6 +47,8 @@ kiosk_mode:
     kiosk: false
     hide_header: false
 ```
+This will only hide for non admins so easy to edit when needing to.
+
 ---
 ## 🎨 Theme Configuration
 Ensure your Home Assistant `configuration.yaml` contains:
