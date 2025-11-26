@@ -97,7 +97,7 @@ template:
             {% endif %}
             {{ (target - now.date()).days }}
 ```
-Now create the card 
+Now create a new card - Select Manual - Paste the below yaml. 
 ```yaml
 type: custom:button-card
 entity: sensor.christmas_live_countdown
