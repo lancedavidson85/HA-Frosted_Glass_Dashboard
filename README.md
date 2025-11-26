@@ -58,12 +58,11 @@ frontend:
   themes: !include_dir_merge_named themes
 ```
 
-Place the Frosted Glass theme folder inside:
-```
-/config/themes/frosted_glass/
-```
+To enable the Frosted Glass theme you need to select it from each device under the user profile:
+<img width="930" height="351" alt="image" src="https://github.com/user-attachments/assets/76a6645a-4057-4d69-807d-01bee79d8466" />
 
-Then reload themes via **Developer Tools → YAML → Reload Themes**.
+
+If the theme is not showing, reload themes via **Developer Tools → YAML → Reload Themes**.
 
 ---
 ## 🔧 Customisation Tips
