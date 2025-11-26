@@ -1,15 +1,21 @@
 # Frosted Glass Home Assistant Dashboard
 
 A modern, elegant, and fully‑responsive Home Assistant dashboard designed with the **Frosted Glass Theme** by [wessamlauf](https://github.com/wessamlauf/homeassistant-frosted-glass-themes). This README is written as a complete guide for anyone who wants to install, customise, and run this dashboard as their Home Assistant homepage.
-<div style="display: flex; align-items: center; gap: 10px;">
-  <img src="https://github.com/user-attachments/assets/b0f9077f-522a-4c66-b874-6d3d49a182d5"
-       alt="FullDashImage"
-       style="height: 908px;" />
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/b0f9077f-522a-4c66-b874-6d3d49a182d5"
+           alt="FullDashImage"
+           height="908" />
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/ccaa8aa3-cd49-496f-b179-277768f8d289"
+           alt="iOS Screenshot"
+           height="908" />
+    </td>
+  </tr>
+</table>
 
-  <img src="https://github.com/user-attachments/assets/ccaa8aa3-cd49-496f-b179-277768f8d289"
-       alt="iOS Screenshot"
-       style="height: 908px;" />
-</div>
 
 
 <img width="1180" height="908" alt="FullDashImage" src="https://github.com/user-attachments/assets/b0f9077f-522a-4c66-b874-6d3d49a182d5" /> ![20251126_112212000_iOS](https://github.com/user-attachments/assets/ccaa8aa3-cd49-496f-b179-277768f8d289)
