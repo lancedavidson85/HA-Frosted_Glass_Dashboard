@@ -26,7 +26,7 @@ A modern, elegant, and fully‑responsive Home Assistant dashboard designed with
     </td>
     <td>
       <video src="https://github.com/user-attachments/assets/b03e11ab-0625-43e4-b0a1-ccb51dc4523f"
-             width="400"
+             width="852"
              controls></video>
     </td>
   </tr>
