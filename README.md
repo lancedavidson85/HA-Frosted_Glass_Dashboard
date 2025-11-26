@@ -38,13 +38,7 @@ Install from HACS:
 For hiding sidebar and header on wall tablets.
 - https://github.com/maykar/kiosk-mode
 
----
-## 📁 File Structure
-You should store your dashboard YAML inside:
-```
-config/
- └── dashboards/
-       └── frosted-glass-dashboard.yaml
+
 ```
 
 Enable dashboards in **Settings → Dashboards → Three dots → Add Dashboard**.
