@@ -4,11 +4,11 @@ A modern, elegant, and fully‑responsive Home Assistant dashboard designed with
 <div style="display: flex; align-items: center; gap: 10px;">
   <img src="https://github.com/user-attachments/assets/b0f9077f-522a-4c66-b874-6d3d49a182d5"
        alt="FullDashImage"
-       style="height: 300px;" />
+       style="height: 908px;" />
 
   <img src="https://github.com/user-attachments/assets/ccaa8aa3-cd49-496f-b179-277768f8d289"
        alt="iOS Screenshot"
-       style="height: 300px;" />
+       style="height: 908px;" />
 </div>
 
 
