@@ -69,21 +69,7 @@ If the theme is not showing, reload themes via **Developer Tools → YAML → Re
 
 ---
 ## 🔧 Customisation Tips
-### Increase or reduce card transparency
-Edit:
-```
-background: rgba(255,255,255,0.15)
-```
-Increase the last value (0.15 → 0.3) for less transparency.
-
-### Change the blur intensity
-```
-backdrop-filter: blur(12px)
-```
-Increase to blur more.
-
-### Remove snowfall animation
-Delete the entire `custom_fields: snow` and `extra_styles` block.
+### Christmas Day Countdown
 
 ---
 ## 📱 Recommended Devices
