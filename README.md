@@ -71,7 +71,33 @@ If the theme is not showing, reload themes via **Developer Tools → YAML → Re
 ## 🔧 Customisation Tips
 ### 🎅 Christmas Day Countdown
 If you want to add the countdown box to your dashboard you will need to make sure you have the "button-card" installed.
-
+Step 1:
+Create a new sensor in your Configuration.yaml file for the countdown timer.
+```yaml
+template:
+  - trigger:
+      - platform: time_pattern
+        seconds: "/1"
+    sensor:
+      - name: "Christmas Live Countdown"
+        state: >
+          {% set now = now() %}
+          {% set target = now.replace(month=12, day=25, hour=0, minute=0, second=0, microsecond=0) %}
+          {% if target < now %}
+            {% set target = target.replace(year=now.year + 1) %}
+          {% endif %}
+          {% set diff = target - now %}
+          {{ diff.days }}d {{ (diff.seconds // 3600) }}h {{ (diff.seconds % 3600) // 60 }}m {{ diff.seconds % 60 }}s
+        attributes:
+          days: >
+            {% set now = now() %}
+            {% set target = now.replace(month=12, day=25) %}
+            {% if target < now %}
+              {% set target = target.replace(year=now.year + 1) %}
+            {% endif %}
+            {{ (target - now.date()).days }}
+```
+Now create the card 
 ```yaml
 - type: custom:button-card
   entity: sensor.christmas_live_countdown
