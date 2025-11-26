@@ -5,13 +5,9 @@ A modern, elegant, and fully‑responsive Home Assistant dashboard designed with
 ---
 ## 🌟 Features
 - **Frosted Glass UI** for a clean, modern visual style
-- **Dynamic time & date** display
-- **Weather widget** with animated icons
 - **Transparent card styling** for all elements
-- **Live UK & Canada clocks**
 - **Christmas countdown card** with optional snowfall animation
-- **Device status section** (lights, switches, and scenes)
-- Fully responsive layout (desktop, tablet, wall panel)
+- Fully responsive layout (desktop, tablet, wall panel, phone)
 - Works with **any Lovelace layout** (tested with grid & vertical-stack)
 
 ---
