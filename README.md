@@ -292,14 +292,11 @@ triggers_update: all
 |--------|--------------|--------|
 | Desktop / Laptop | ✅ | Full resolution experience |
 | iPad / Tablet | ✅ | Perfect for wall tablets |
-| Phone | ⚠️ | Works, but best with layout tweaks |
+| Phone | ✅ | Works well but depending where you position the section |
 
 ---
 ## 🚀 Future Improvements
-- Add full navigation pages
-- Add energy dashboard integration
-- Add notifications panel
-- Add media player section
+- TBC
 
 ---
 ## 🙌 Credits
