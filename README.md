@@ -39,13 +39,14 @@ For hiding sidebar and header on wall tablets.
 - https://github.com/maykar/kiosk-mode
 
 Add this to the top of the Dashboard RAW configuration editor file:
+```yaml
 kiosk_mode:
   kiosk: true
   hide_header: true
   admin_settings:
     kiosk: false
     hide_header: false
-
+```
 ---
 ## 🎨 Theme Configuration
 Ensure your Home Assistant `configuration.yaml` contains:
