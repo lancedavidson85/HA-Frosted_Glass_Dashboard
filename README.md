@@ -30,9 +30,12 @@ Follow theme installation instructions in the repo.
 
 ### 3. **Custom Cards Required**
 Install from HACS:
-- **button-card** → For custom interactive tiles
-- **mod-card** → For styling + snow effect wrappers
-- **weather-card** (if not using default)
+- **button-card** → For custom interactive tiles  
+  https://github.com/custom-cards/button-card
+- **mod-card** → For styling + snow effect wrappers  
+  https://github.com/thomasloven/lovelace-card-mod
+- **weather-card** (if not using built-in weather forecast)  
+  https://github.com/bramkragten/weather-card
 
 ### 4. (Optional) **Kiosk Mode**
 For hiding sidebar and header on wall tablets.
